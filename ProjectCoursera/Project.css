@@ -1,0 +1,465 @@
+/*start*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+/*whole screen*/
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.topnav_icon
+{
+  DISPLAY: FLEX;
+  FLEX-DIRECTION: column;
+  GAP: 7PX;
+}
+.Title {
+  padding: 5px;
+  
+}
+.Title h1 {
+  color: #3a0072;
+}
+/*all the cards Divison*/
+.Cards {
+  
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding: 28px 0px 0px 40px;
+}
+
+/*Card one start*/
+.card_one {
+  width: 15%;
+  height: 40%;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px black;
+}
+
+.Icon_and_text {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.Icon_and_text h6 {
+  margin-bottom: 0px;
+}
+
+.Subject_and_experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.Subject_and_experience h4 {
+  word-break: break-all;
+}
+
+/*Card one end*/
+.card_two {
+  width: 15%;
+  height: 40%;
+  border: 2px solid #000000;
+}
+
+.card_three {
+  width: 15%;
+  height: 40%;
+  border: 2px solid #000000;
+}
+
+.card_four {
+  width: 15%;
+  height: 40%;
+  border: 2px solid #000000;
+}
+
+.card_five {
+  width: 15%;
+  height: 40%;
+  border: 2px solid #000000;
+}
+
+.card_six {
+  width: 15%;
+  height: 40%;
+  border: 2px solid #000000;
+}
+/*end*/
+
+#container {
+  background-color: #3a0072;
+  height: 140px;
+  color: white;
+}
+/*top start*/
+
+.container {
+  background-color: #3a0072;
+  color: white;
+  padding: 10px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+}
+
+.heading {
+  float: right;
+  margin-right: 150px;
+
+  color: #3a0072;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  
+}
+
+.intro-content {
+  margin: 0 50px;
+  color: black;
+  width: 50%;
+}
+/* top end*/
+
+.jss {
+  width: 175px;
+
+  border-radius: 20px;
+
+  border: 1px solid black;
+  float: right;
+}
+.jssstyle {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.jss:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* Add some padding inside the card container */
+.con {
+  padding: 2px 16px;
+  color: black;
+  text-align: center;
+}
+
+.jj {
+  width: 175px;
+  padding: 2px;
+  border-radius: 20px;
+  margin-inline: 200px;
+  border: 1px solid black;
+  float: left;
+}
+.jjstyle {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.jj:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* Add some padding inside the card container */
+.con {
+  padding: 2px 16px;
+  color: black;
+  text-align: center;
+}
+
+.first {
+  width: 175px;
+  border: 1px solid black;
+  margin: 20px;
+
+  border-radius: 20px;
+}
+.firststyle {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.first:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* Add some padding inside the card container */
+.fir {
+  padding: 2px 16px;
+  color: black;
+  text-align: center;
+}
+
+.second {
+  width: 175px;
+
+  border-radius: 20px;
+
+  border: 1px solid black;
+  float: right;
+}
+.secondstyle {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.second:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* Add some padding inside the card container */
+.sec {
+  padding: 2px 16px;
+  color: black;
+  text-align: center;
+}
+
+.third {
+  width: 175px;
+  padding: 2px;
+  border-radius: 20px;
+  margin-inline: 200px;
+  border: 1px solid black;
+  float: right;
+}
+.thirdstyle {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.third:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* Add some padding inside the card container */
+.cont {
+  padding: 2px 16px;
+  color: black;
+  text-align: center;
+}
+
+.text2 {
+  color: mediumpurple;
+}
+
+/* for the recommendations */
+.rec1 {
+  width: 350px;
+  height: 150px;
+
+  border: 1px solid black;
+  margin: 20px;
+  float: left;
+  border-radius: 20px;
+}
+.rec1style {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.rec1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* Add some padding inside the card container */
+.r1 {
+  padding: 2px 16px;
+  color: black;
+  text-align: center;
+  
+}
+
+.text3 {
+  color: mediumpurple;
+}
+
+/* for the projects */
+.tex3 {
+  color: black;
+  margin: 10px;
+}
+.t3 {
+  margin: 20px;
+}
+
+.tex4 {
+  color: black;
+  margin: 10px;
+}
+.t4 {
+  margin: 20px;
+}
+
+.tex5 {
+  color: black;
+  margin: 10px;
+}
+.t5 {
+  margin: 20px;
+}
+
+/* for the leave recaommendation */
+
+.lar {
+  margin-top: 50px;
+  color: black;
+  font-weight: bold;
+  margin-inline: 350px;
+}
+.larbox {
+  margin-inline: 350px;
+  width: 600px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.larbox2 {
+  margin-inline: 350px;
+  width: 600px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.button {
+  color: black;
+  margin-inline: 600px;
+  width: 60px;
+  height: 30px;
+  border: 1px solid black;
+}
+.rolla
+{
+  width: 100%;
+  /* border: red; */
+  
+  height: 315px;
+}.arrowtotop
+{
+  display: flex;
+  justify-content: end;
+  text-align: left;
+}
+.arrowtotop img
+{
+  width: 3%;
+  margin-right: 59px
+}
+.Leaveofrecommendation
+{
+  position: relative;
+}
+.insideLeaveofrecommendation
+{
+  display: flex;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.insideLeaveofrecommendation input
+{
+  width: 40%;
+  
+}
+
+.insideLeaveofrecommendation textarea
+{
+  width: 40%;
+  white-space: pre-line;
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+
+.insideLeaveofrecommendation #message
+{
+  padding-bottom: 99px;
+}
+.insideLeaveofrecommendation button{
+  border-radius: 9px;
+  color: purple;
+  display: flow;
+  font-size: 17px;
+  width: 9%;
+  height: 42px;
+  /* padding: 26px; */
+  border: 2px solid #633963;
+  background: transparent;
+}
+.popup
+{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 82px;
+  display: none;
+
+}
+.insidepopup
+{
+  display: flex;
+  flex-direction: column;
+  width: 17%;
+  align-items: center;
+  padding: 5px;
+  color: #000000;
+  border-radius: 39px;
+  background-color: lightblue;
+}
+.popup .insidepopup button
+{
+  border-radius: 9px;
+  color: purple;
+  display: flow;
+  font-size: 17px;
+  width: 43%;;
+  height: 42px;
+  /* padding: 26px; */
+  border: 2px solid #633963;
+  background: transparent;
+}

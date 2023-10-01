@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <title>Food Order Form</title>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="header">
+            <h1>Pizza For You</h1>
+        </div>
+        <div class="section">
+            <div class="left_side">
+                <h1>Address</h1>
+
+                <form class="left">
+
+                    <label for="name">
+                        <h3>Name:</h3>
+                    </label>
+                    <input type="text" id="name" placeholder="John" required>
+                    <div id="usernameError" style="color: red;"></div>
+
+                    <label for="email">
+                        <h3>Email:</h3>
+                    </label>
+                    <input type="email" id="email" placeholder="John@gmail.com" required>
+                    <div id="emailError" style="color: red;"></div>
+
+                    <label for="phone">
+                        <h3>Phone No:</h3>
+                    </label>
+                    <input type="tel" id="phone" placeholder="####-######-##" required>
+
+                    <label for="street-address">
+                        <h3>Address:</h3>
+                    </label>
+                    <input type="text" id="street-address" placeholder="House # Street # city-name" required>
+
+                    <label for="instructions">
+                        <h3>Special Instructions:</h3>
+                    </label>
+                    <textarea id="txtarea" rows="4" cols="5" placeholder="Extra Instructions About Order"></textarea>
+
+
+                    <label for="payment">
+                        <h3>Payment</h3>
+                    </label>
+
+                    <select name="payment" id="payment">
+                        <option value="Cash">Cash on delivery</option>
+                        <option value="Card">Through Card</option>
+                    </select>
+
+                </form>
+
+
+            </div>
+            <div class="right_side">
+                <h1>Choose Your Meal</h1>
+
+                <div class="Inside">
+                    <div class="box1">
+                        <label for="appetizer">
+                            <h3>Appetizer</h3>
+                        </label>
+                        <input type="radio" id="none" name="food" value="None" onclick="showImage('none')">
+                        <label for="none">None</label>
+                        <input type="radio" id="salad" name="food" value="Salad" onclick="showImage('salad')">
+                        <label for="salad">Salad</label>
+                    </div>
+                    <div class="image1">
+                        <img src="assets/Salad.png" alt="error" width="30%" class="hidden" id="salad-image"
+                            style="border-radius: 50%;">
+                        <img src="assets/No_sign.png" alt="error" width="30%" class="hidden" id="none-image">
+                    </div>
+
+
+                    <div class="box2">
+                        <label for="maincourse">
+                            <h3>Main Course</h3>
+                        </label>
+                        <input type="radio" id="CheesePizza" name="maincourse" value="CheesePizza"
+                            onclick="show_pizzaimg('cheese')">
+                        <label for="cheese">CheesePizza</label>
+                        <input type="radio" id="Veggiepizza" name="maincourse" value="Veggiepizza"
+                            onclick="show_pizzaimg('veggie')">
+                        <label for="Veggiepizza">VeggiePizza</label>
+                        <input type="radio" id="PepperoniPizza" name="maincourse" value="PepperoniPizza"
+                            onclick="show_pizzaimg('pepperoni')">
+                        <label for="PepperoniPizza">PepperoniPizza</label>
+                    </div>
+                    <div class="image2">
+                        <img src="assets/cheesepizza.png" alt="error" width="50%" class="hidden" id="cheese-image">
+                        <img src="assets/Veggiepizza.png" alt="error" width="50%" class="hidden" id="veggie-image"
+                            style="border-radius: 50%;">
+                        <img src="assets/Pepperoni Pizza.png" alt="error" width="50%" class="hidden"
+                            id="pepperoni-image">
+                    </div>
+                    <div class="box3">
+                        <label for="Drinks">
+                            <h3>Drinks</h3>
+                        </label>
+                        <input type="radio" id="coke" name="Drinks" value="coke" onclick="show_drinkimg('coke')">
+                        <label for="coke">Coke</label>
+                        <input type="radio" id="Pepsi" name="Drinks" value="Pepsi" onclick="show_drinkimg('pepsi')">
+                        <label for="Pepsi">Pepsi</label>
+                        <input type="radio" id="Mountaindew" name="Drinks" value="Mountaindew"
+                            onclick="show_drinkimg('mountaindew')">
+                        <label for="Mountaindew">Mountaindew</label>
+                    </div>
+                    <div class="image3">
+                        <img src="assets/coke.png" alt="error" width="50%" class="hidden" id="coke-image">
+                        <img src="assets/Pepsi.png" alt="error" width="50%" class="hidden" id="pepsi-image">
+                        <img src="assets/Mountaindew.png" alt="error" width="50%" class="hidden" id="mountaindew-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Footer">
+            <div class="wrapper">
+                <a href="#" id="submit-order-button"><span>Submit Order!</span></a>
+            </div>
+            <div class="wrapper">
+                <a id="reset-button" href="#"><span>Reset!</span></a>
+            </div>
+        </div>
+
+        <div class="popup">
+            <div class="insidepopup">
+                <img src="assets/tick-mark.png" alt="error" width="15%" id="popimage">
+                <h4>Your Order Has Been Submitted</h4>
+                <Button>ok</Button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Form.js"></script>
+</body>
+
+</html>
